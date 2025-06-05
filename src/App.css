@@ -1,0 +1,67 @@
+/* General page style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ffe6f7, #e6f7ff);
+  color: #444;
+}
+
+/* Main layout wrapper */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #ffc8dd;
+  color: #5a189a;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #b5ead7;
+  color: #3a3a3a;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: auto;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Page content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Navigation buttons or links */
+.nav-button {
+  background-color: #fcd5ce;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #6d6875;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-button:hover {
+  background-color: #f9dcc4;
+  transform: scale(1.05);
+}

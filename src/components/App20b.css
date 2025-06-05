@@ -1,0 +1,35 @@
+.app20b-box {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #ef6c00;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.app20b-box h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.app20b-box p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.app20b-box button {
+  padding: 8px 16px;
+  background-color: #ef6c00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.app20b-box button:hover {
+  background-color: #bf360c;
+}

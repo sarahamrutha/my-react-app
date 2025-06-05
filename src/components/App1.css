@@ -1,0 +1,21 @@
+
+.app1-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.app1-title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.component-wrapper {
+  background-color: white;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}

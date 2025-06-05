@@ -1,0 +1,12 @@
+div {
+  width: 150px;
+  height: 100px;
+  background-color: #4caf50; /* green */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

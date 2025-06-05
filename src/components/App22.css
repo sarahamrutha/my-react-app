@@ -1,0 +1,67 @@
+/* Overall card style */
+.card {
+  background: #f8d9ff; /* Soft pastel pink */
+  border-radius: 15px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Title styling */
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff8b8b; /* Light coral color */
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* Temperature text */
+.temperature {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fca9b5; /* Warm pinkish color */
+  margin: 20px 0;
+  animation: bounce 1s ease infinite;
+}
+
+/* Error message styling */
+.error {
+  color: #f7786b; /* Soft red for errors */
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Loading text styling */
+.loading {
+  color: #ffcbf2; /* Light lavender */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Animation for the temperature */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Optional background for the page */
+body {
+  background: linear-gradient(135deg, #f8d9ff, #c6e2ff); /* Soft gradient background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}

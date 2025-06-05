@@ -1,0 +1,62 @@
+/* App12.css */
+
+.App-Container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 20px;
+  background-color: #f0f8ff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.Counter-Box {
+  background-color: #e1f5fe;
+  border-radius: 18px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 15px rgba(33, 150, 243, 0.15);
+  text-align: center;
+  width: 220px;
+  transition: transform 0.2s ease;
+}
+
+.Counter-Box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(33, 150, 243, 0.3);
+}
+
+.Counter-Box h1 {
+  margin: 0 0 10px;
+  font-size: 1.8rem;
+  color: #0277bd;
+}
+
+.Counter-Box h2 {
+  font-size: 1rem;
+  margin: 0 0 20px;
+  color: #039be5;
+}
+
+.Counter-Box p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 15px 0 25px;
+  color: #01579b;
+}
+
+.Counter-Box button {
+  background-color: #0288d1;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.Counter-Box button:hover {
+  background-color: #0277bd;
+}

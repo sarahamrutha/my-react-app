@@ -1,0 +1,67 @@
+/* App13.css */
+
+.App13-Container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: #e3f2fd;
+  border-radius: 18px;
+  box-shadow: 0 10px 18px rgba(30, 136, 229, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0d47a1;
+  text-align: center;
+}
+
+.App13-Container h1 {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.App13-Container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #1976d2;
+}
+
+.App13-Row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.App13-Row > div {
+  background: white;
+  flex: 1 1 45%;
+  border-radius: 14px;
+  padding: 15px 20px;
+  box-shadow: 0 6px 12px rgba(25, 118, 210, 0.15);
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.App13-Row > div h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #1565c0;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  border-radius: 14px;
+  border: 2px solid #90caf9;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #42a5f5;
+  box-shadow: 0 0 10px rgba(66, 165, 245, 0.5);
+}

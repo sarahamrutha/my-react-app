@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.register-box {
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px 24px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.register-box p {
+  margin: 12px 0;
+}
+
+.register-box input[type="text"],
+.register-box input[type="email"],
+.register-box input[type="password"],
+.register-box input[type="checkbox"] {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.register-box input[type="text"]:focus,
+.register-box input[type="email"]:focus,
+.register-box input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.register-box input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+.register-box button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-box button:hover {
+  background-color: #0056b3;
+}
+
+.register-box .error {
+  color: #e74c3c;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.register-box .link {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.register-box .link:hover {
+  color: #0056b3;
+}

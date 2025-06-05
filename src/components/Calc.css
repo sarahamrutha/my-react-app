@@ -1,0 +1,24 @@
+.calc-container {
+  background-color: #e8f5e9;
+  border: 2px solid #a5d6a7;
+  border-radius: 16px;
+  padding: 20px 24px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  color: #2e7d32;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.calc-container span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.calc-container span:last-child {
+  font-weight: bold;
+  color: #1b5e20;
+}

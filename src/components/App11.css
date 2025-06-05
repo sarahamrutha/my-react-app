@@ -1,0 +1,75 @@
+.App-Container {
+  position: relative;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 60px 40px 40px;
+  background-color: #f0f4f8;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  min-height: 320px;
+}
+
+.Number-Input {
+  display: block;
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1.2rem;
+  border-radius: 14px;
+  border: 2px solid #90caf9;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.Number-Input:focus {
+  outline: none;
+  border-color: #42a5f5;
+  box-shadow: 0 0 8px rgba(66, 165, 245, 0.5);
+}
+
+.Corner {
+  position: absolute;
+  width: 45%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+}
+
+.Corner h3 {
+  margin: 0 0 8px;
+  color: #1e88e5;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.Corner p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+  word-break: break-word;
+}
+
+/* Positioning the corners */
+.Top-Left {
+  top: 80px;
+  left: 0;
+}
+
+.Top-Right {
+  top: 80px;
+  right: 0;
+}
+
+.Bottom-Left {
+  bottom: 0;
+  left: 0;
+}
+
+.Bottom-Right {
+  bottom: 0;
+  right: 0;
+}

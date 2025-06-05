@@ -1,0 +1,55 @@
+.App-Header-Row {
+  background-color: #f3e5f5;
+  padding: 16px 24px;
+  border-bottom: 2px solid #ce93d8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.App-Header-Row h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #6a1b9a;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 14px;
+  margin-top: 14px;
+  padding: 8px 0;
+  justify-content: center;
+  scrollbar-width: thin;
+  scrollbar-color: #ce93d8 #f3e5f5;
+}
+
+.nav-links::-webkit-scrollbar {
+  height: 6px;
+}
+
+.nav-links::-webkit-scrollbar-track {
+  background: #f3e5f5;
+}
+
+.nav-links::-webkit-scrollbar-thumb {
+  background-color: #ce93d8;
+  border-radius: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #7b1fa2;
+  font-weight: 500;
+  background-color: #ede7f6;
+  padding: 6px 12px;
+  border-radius: 10px;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #d1c4e9;
+  color: #4a148c;
+}

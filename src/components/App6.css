@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #34495e;
+}
+
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.Fruit {
+  background-color: #e0f7fa;
+  color: #006064;
+  border: 1px solid #00acc1;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  width: 120px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

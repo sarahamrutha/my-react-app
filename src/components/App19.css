@@ -1,0 +1,168 @@
+/* App19.css */
+
+.app19-container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 28px 32px;
+  background-color: #f9fafb;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6rem;
+  color: #2563eb; /* Blue shade */
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #334155;
+}
+
+.scoreboard-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1e40af;
+}
+
+.scoreboard-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.left-box {
+  flex: 1;
+  background-color: #f0f9ff;
+  padding: 24px 20px;
+  border-radius: 18px;
+  box-shadow: inset 0 0 8px #bfdbfe;
+}
+
+.left-box h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #1e40af;
+}
+
+.left-box p {
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.button-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.button-section button {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 12px 20px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 48px;
+  height: 48px;
+  user-select: none;
+}
+
+.button-section button:hover {
+  background-color: #2563eb;
+}
+
+.wicket-button {
+  background-color: #ef4444; /* red */
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.wicket-button:hover {
+  background-color: #b91c1c;
+}
+
+.right-box {
+  flex: 1;
+  background-color: #e0e7ff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 15px #c7d2fe;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-box h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+  color: #1e3a8a;
+  transition: color 0.4s ease;
+}
+
+/* Highlight classes */
+
+.rainbow {
+  animation: rainbowGlow 2s ease forwards;
+  color: #d946ef; /* pink-purple */
+  font-weight: 800;
+}
+
+@keyframes rainbowGlow {
+  0%, 100% {
+    color: #d946ef;
+    text-shadow:
+      0 0 5px #d946ef,
+      0 0 10px #f43f5e,
+      0 0 15px #facc15,
+      0 0 20px #22c55e,
+      0 0 25px #3b82f6;
+  }
+  50% {
+    color: #f43f5e;
+    text-shadow:
+      0 0 10px #f43f5e,
+      0 0 15px #facc15,
+      0 0 20px #22c55e,
+      0 0 25px #3b82f6,
+      0 0 30px #d946ef;
+  }
+}
+
+.green {
+  color: #22c55e;
+  font-weight: 700;
+  text-shadow: 0 0 10px #22c55e;
+}
+
+.red {
+  color: #ef4444;
+  font-weight: 700;
+  text-shadow: 0 0 10px #ef4444;
+}
